@@ -24,7 +24,7 @@
 	[ 'neural'     ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/neural/.package',
 	[ 'pl'         ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/pl/.package',
 --	[ 'pickup'     ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/pickup/.package',
-	[ 'recipeBook' ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/recipeBook/.package',
+	[ 'recipeBook' ] = 'https://raw.githubusercontent.com/iuzx0/opus-apps/develop-1.8/recipeBook/.package',
 	[ 'screenSaver'] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/screenSaver/.package',
 	[ 'secure'     ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/secure/.package',
 	[ 'shellex'    ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/shellex/.package',
