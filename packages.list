@@ -5,7 +5,7 @@
 	[ 'ccemux'     ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/ccemux/.package',
 	[ 'common'     ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/common/.package',
 	[ 'compress'   ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/compress/.package',
-	[ 'core'       ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/core/.package',
+	[ 'core'       ] = 'https://raw.githubusercontent.com/iuzx0/opus-apps/develop-1.8/core/.package',
 	[ 'debugger'   ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/debugger/.package',
 	[ 'farms'      ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/farms/.package',
 --	[ 'forestry'   ] = 'https://raw.githubusercontent.com/kepler155c/opus-apps/develop-1.8/forestry/.package',
