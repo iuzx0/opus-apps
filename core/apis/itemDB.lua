@@ -44,9 +44,8 @@ function itemDB:splitKey(key, item)
 	if t[3] then
 		item.nbt = t[3]
 	end
-
+	t[3] = nil -- removes nbt from the name
 	item.name = table.concat(t, ':')
-
 	return item
 end
 
