@@ -156,7 +156,7 @@ end
 function Milo:craftAndEject(item, count)
 	local request = self:makeRequest(item, count, function(request)
 		-- eject rest when finished crafted
-		return self:eject(item, request.requested)
+		return self:eject(request.item, request.requested)
 	end)
 
 	return request

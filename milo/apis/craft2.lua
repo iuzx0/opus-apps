@@ -207,16 +207,18 @@ local function turtleCraft(recipe, storage, request, count)
 	if turtle.craft() then
 		local l = storage.turtleInventory.adapter.list()
 		local crafted = l[1]
-		if recipe.result ~= itemDB:makeKey(crafted) then
+		local item = itemDB:splitKey(itemDB:makeKey(crafted))
+		if recipe.result ~= item.name then
 			_G._syslog('expected: ' .. recipe.result)
 			_G._syslog('got: ' .. itemDB:makeKey(crafted))
 			request.aborted = true
 			request.status = 'Failed to craft: ' .. recipe.result
 			request.statusCode = Craft.STATUS_ERROR
 		else
+			request.item = item
 			request.crafted = request.crafted + count * recipe.count
-			--request.status = 'crafted'
-			--request.statusCode = Craft.STATUS_SUCCESS
+			-- request.status = 'crafted'
+			-- request.statusCode = Craft.STATUS_SUCCESS
 		end
 	else
 		_G._syslog('just failed')

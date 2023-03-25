@@ -132,7 +132,7 @@ local function client(socket)
 						target,
 						nil,
 						request.requested,
-						data.item)
+						request.item)
 
 					local item = Milo:listItems()[request.key]
 					socket:write({
